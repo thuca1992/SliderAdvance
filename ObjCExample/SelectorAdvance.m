@@ -33,38 +33,38 @@
 }
 
 - (void) customSlider{
-    [self.slider setThumbImage:[UIImage imageNamed:@"thumb.png"] forState:UIControlStateNormal];
-    UIEdgeInsets inset = UIEdgeInsetsMake(0, 0, 0, 5);
-    
-    UIEdgeInsets insetMin = UIEdgeInsetsMake(0 , 5, 0, 0);
-    
-    UIEdgeInsets insetImage = UIEdgeInsetsMake(15, 10 , 15, 10);
-    
-    UIEdgeInsets insetImageLabel = UIEdgeInsetsMake(10, 24 , 10, 10);
-    
-    UIImage *imgImageLabel = [[UIImage imageNamed:@"image_label"]resizableImageWithCapInsets:insetImageLabel];
-    
-    UIImage *imgBackgroundSlider = [[UIImage imageNamed: @"abc"] resizableImageWithCapInsets:insetImage];
-    
-    UIImage* maxTrack = [[UIImage imageNamed: @"maxtrack.png"] resizableImageWithCapInsets:inset];
-    
-    UIImage* minTrack = [[UIImage imageNamed: @"mintrack.png"] resizableImageWithCapInsets:insetMin];
-    
-    
-    [self.imgLabel setImage:imgImageLabel];
-    // Set Image for imageview behind the slider
-    [self.imgSlider setImage: imgBackgroundSlider];
-    // Set image for slider's maxtrack
-    [self.slider setMaximumTrackImage:maxTrack
-                             forState:UIControlStateNormal];
-    // Set image for slider's min track
-    [self.slider setMinimumTrackImage:minTrack forState:UIControlStateNormal];
-    
-    // Set label and imageview behind slider position base on thumb position
-    self.imgSlider.center = CGPointMake(self.slider.center.x, self.slider.center.y);
-    self.label.center = [self getThumbPosition];
-    self.imgLabel.center = [self getThumbPosition];
-    self.imgLabel.alpha = 0.6f;
+//    [self.slider setThumbImage:[UIImage imageNamed:@"thumb.png"] forState:UIControlStateNormal];
+//    UIEdgeInsets inset = UIEdgeInsetsMake(0, 0, 0, 5);
+//    
+//    UIEdgeInsets insetMin = UIEdgeInsetsMake(0 , 5, 0, 0);
+//    
+//    UIEdgeInsets insetImage = UIEdgeInsetsMake(15, 10 , 15, 10);
+//    
+//    UIEdgeInsets insetImageLabel = UIEdgeInsetsMake(10, 24 , 10, 10);
+//    
+//    UIImage *imgImageLabel = [[UIImage imageNamed:@"image_label"]resizableImageWithCapInsets:insetImageLabel];
+//    
+//    UIImage *imgBackgroundSlider = [[UIImage imageNamed: @"abc"] resizableImageWithCapInsets:insetImage];
+//    
+//    UIImage* maxTrack = [[UIImage imageNamed: @"maxtrack.png"] resizableImageWithCapInsets:inset];
+//    
+//    UIImage* minTrack = [[UIImage imageNamed: @"mintrack.png"] resizableImageWithCapInsets:insetMin];
+//    
+//    
+//    [self.imgLabel setImage:imgImageLabel];
+//    // Set Image for imageview behind the slider
+//    [self.imgSlider setImage: imgBackgroundSlider];
+//    // Set image for slider's maxtrack
+//    [self.slider setMaximumTrackImage:maxTrack
+//                             forState:UIControlStateNormal];
+//    // Set image for slider's min track
+//    [self.slider setMinimumTrackImage:minTrack forState:UIControlStateNormal];
+//    
+//    // Set label and imageview behind slider position base on thumb position
+//    self.imgSlider.center = CGPointMake(self.slider.center.x, self.slider.center.y);
+//    self.label.center = [self getThumbPosition];
+//    self.imgLabel.center = [self getThumbPosition];
+//    self.imgLabel.alpha = 0.6f;
 }
 
 - (void) setBackground{

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SkewImage">
+            <connections>
+                <outlet property="image" destination="iHm-FV-jfd" id="9RO-Dc-AHg"/>
+                <outlet property="slider" destination="NFS-KS-7lL" id="ED0-DQ-gxa"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="60" minValue="20" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="NFS-KS-7lL" customClass="CustomSlider">
+                    <rect key="frame" x="38" y="600" width="299" height="38"/>
+                    <connections>
+                        <action selector="onValueChanged:" destination="-1" eventType="valueChanged" id="RwK-Fj-ipj"/>
+                    </connections>
+                </slider>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iHm-FV-jfd">
+                    <rect key="frame" x="30" y="79" width="315" height="437"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="NFS-KS-7lL" firstAttribute="top" secondItem="iHm-FV-jfd" secondAttribute="bottom" constant="100" id="AXf-Fb-K0h"/>
+                <constraint firstItem="iHm-FV-jfd" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="Abc-2p-FoD"/>
+                <constraint firstAttribute="centerX" secondItem="NFS-KS-7lL" secondAttribute="centerX" id="FSf-Xw-yD9"/>
+                <constraint firstItem="NFS-KS-7lL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="600" id="MOB-Tv-kpd"/>
+                <constraint firstAttribute="trailing" secondItem="NFS-KS-7lL" secondAttribute="trailing" constant="40" id="dG0-fL-k8c"/>
+                <constraint firstAttribute="trailing" secondItem="iHm-FV-jfd" secondAttribute="trailing" constant="30" id="eKk-Gu-c0t"/>
+                <constraint firstItem="iHm-FV-jfd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="i6L-Bu-Dja"/>
+                <constraint firstAttribute="centerY" secondItem="iHm-FV-jfd" secondAttribute="centerY" id="iQS-KI-myl"/>
+                <constraint firstAttribute="centerX" secondItem="iHm-FV-jfd" secondAttribute="centerX" id="oeJ-x9-rCK"/>
+                <constraint firstAttribute="bottom" secondItem="NFS-KS-7lL" secondAttribute="bottom" constant="30" id="rwY-39-4zM"/>
+                <constraint firstItem="NFS-KS-7lL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="s1y-wh-ndq"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+        </view>
+    </objects>
+</document>

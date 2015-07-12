@@ -7,10 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D911B8831B5186160092C548 /* CustomSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = D911B8821B5186160092C548 /* CustomSlider.m */; };
+		D911B88D1B518D550092C548 /* SkewImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D911B88B1B518D550092C548 /* SkewImage.m */; };
+		D911B88E1B518D550092C548 /* SkewImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = D911B88C1B518D550092C548 /* SkewImage.xib */; };
 		D94940B21B3EDA0E002640F4 /* DemoSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = D94940B01B3EDA0E002640F4 /* DemoSelector.m */; };
 		D94940B31B3EDA0E002640F4 /* DemoSelector.xib in Resources */ = {isa = PBXBuildFile; fileRef = D94940B11B3EDA0E002640F4 /* DemoSelector.xib */; };
+		D956C7C91B525CAF002E9363 /* SwitchAdvance.m in Sources */ = {isa = PBXBuildFile; fileRef = D956C7C71B525CAF002E9363 /* SwitchAdvance.m */; };
+		D956C7CA1B525CAF002E9363 /* SwitchAdvance.xib in Resources */ = {isa = PBXBuildFile; fileRef = D956C7C81B525CAF002E9363 /* SwitchAdvance.xib */; };
 		D9591FB11B46D8280066A428 /* SelectorAdvance.m in Sources */ = {isa = PBXBuildFile; fileRef = D9591FAF1B46D8280066A428 /* SelectorAdvance.m */; };
 		D9591FB21B46D8280066A428 /* SelectorAdvance.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9591FB01B46D8280066A428 /* SelectorAdvance.xib */; };
+		D95F35881B521ADB00B1AEDA /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = D95F35871B521ADB00B1AEDA /* CustomSwitch.m */; };
 		D99CA6D11B3E833900A97B4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D99CA6D01B3E833900A97B4B /* main.m */; };
 		D99CA6DC1B3E833900A97B4B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D99CA6DB1B3E833900A97B4B /* Images.xcassets */; };
 		D99CA6DF1B3E833900A97B4B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D99CA6DD1B3E833900A97B4B /* LaunchScreen.xib */; };
@@ -35,12 +41,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D911B8811B5186160092C548 /* CustomSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSlider.h; sourceTree = "<group>"; };
+		D911B8821B5186160092C548 /* CustomSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSlider.m; sourceTree = "<group>"; };
+		D911B88A1B518D550092C548 /* SkewImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkewImage.h; sourceTree = "<group>"; };
+		D911B88B1B518D550092C548 /* SkewImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkewImage.m; sourceTree = "<group>"; };
+		D911B88C1B518D550092C548 /* SkewImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkewImage.xib; sourceTree = "<group>"; };
 		D94940AF1B3EDA0E002640F4 /* DemoSelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoSelector.h; sourceTree = "<group>"; };
 		D94940B01B3EDA0E002640F4 /* DemoSelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoSelector.m; sourceTree = "<group>"; };
 		D94940B11B3EDA0E002640F4 /* DemoSelector.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoSelector.xib; sourceTree = "<group>"; };
+		D956C7C61B525CAF002E9363 /* SwitchAdvance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchAdvance.h; sourceTree = "<group>"; };
+		D956C7C71B525CAF002E9363 /* SwitchAdvance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchAdvance.m; sourceTree = "<group>"; };
+		D956C7C81B525CAF002E9363 /* SwitchAdvance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchAdvance.xib; sourceTree = "<group>"; };
 		D9591FAE1B46D8280066A428 /* SelectorAdvance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectorAdvance.h; sourceTree = "<group>"; };
 		D9591FAF1B46D8280066A428 /* SelectorAdvance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectorAdvance.m; sourceTree = "<group>"; };
 		D9591FB01B46D8280066A428 /* SelectorAdvance.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectorAdvance.xib; sourceTree = "<group>"; };
+		D95F35861B521ADB00B1AEDA /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		D95F35871B521ADB00B1AEDA /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
 		D99CA6CB1B3E833900A97B4B /* ObjCExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D99CA6CF1B3E833900A97B4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D99CA6D01B3E833900A97B4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,10 +98,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D911B8841B518B720092C548 /* SkewImage */ = {
+			isa = PBXGroup;
+			children = (
+				D911B88A1B518D550092C548 /* SkewImage.h */,
+				D911B88B1B518D550092C548 /* SkewImage.m */,
+				D911B88C1B518D550092C548 /* SkewImage.xib */,
+			);
+			name = SkewImage;
+			sourceTree = "<group>";
+		};
 		D95BAF911B47DF18005BBA06 /* Advance */ = {
 			isa = PBXGroup;
 			children = (
-				D9B789F81B481C5B00CCADC3 /* Selector */,
+				D911B8841B518B720092C548 /* SkewImage */,
+				D9B789F81B481C5B00CCADC3 /* CustomView */,
 			);
 			name = Advance;
 			sourceTree = "<group>";
@@ -174,7 +201,7 @@
 			name = Basic;
 			sourceTree = "<group>";
 		};
-		D9B789F81B481C5B00CCADC3 /* Selector */ = {
+		D9B789F81B481C5B00CCADC3 /* CustomView */ = {
 			isa = PBXGroup;
 			children = (
 				D9591FAE1B46D8280066A428 /* SelectorAdvance.h */,
@@ -183,8 +210,15 @@
 				D9B789F91B481C7C00CCADC3 /* SelectorAdvance3.h */,
 				D9B789FA1B481C7C00CCADC3 /* SelectorAdvance3.m */,
 				D9B789FB1B481C7C00CCADC3 /* SelectorAdvance3.xib */,
+				D911B8811B5186160092C548 /* CustomSlider.h */,
+				D911B8821B5186160092C548 /* CustomSlider.m */,
+				D95F35861B521ADB00B1AEDA /* CustomSwitch.h */,
+				D95F35871B521ADB00B1AEDA /* CustomSwitch.m */,
+				D956C7C61B525CAF002E9363 /* SwitchAdvance.h */,
+				D956C7C71B525CAF002E9363 /* SwitchAdvance.m */,
+				D956C7C81B525CAF002E9363 /* SwitchAdvance.xib */,
 			);
-			name = Selector;
+			name = CustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,10 +302,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D99CA6DF1B3E833900A97B4B /* LaunchScreen.xib in Resources */,
+				D956C7CA1B525CAF002E9363 /* SwitchAdvance.xib in Resources */,
 				D94940B31B3EDA0E002640F4 /* DemoSelector.xib in Resources */,
 				D99CA6DC1B3E833900A97B4B /* Images.xcassets in Resources */,
 				D9591FB21B46D8280066A428 /* SelectorAdvance.xib in Resources */,
 				D9B789FD1B481C7C00CCADC3 /* SelectorAdvance3.xib in Resources */,
+				D911B88E1B518D550092C548 /* SkewImage.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,13 +327,17 @@
 			files = (
 				D99CA6FE1B3E835C00A97B4B /* BootLogic.m in Sources */,
 				D99CA7001B3E835C00A97B4B /* MainScreen.m in Sources */,
+				D95F35881B521ADB00B1AEDA /* CustomSwitch.m in Sources */,
 				D99CA6FF1B3E835C00A97B4B /* ConsoleScreen.m in Sources */,
 				D99CA6FD1B3E835C00A97B4B /* AppDelegate.m in Sources */,
 				D99CA7071B3E885D00A97B4B /* DemoFunction.m in Sources */,
 				D94940B21B3EDA0E002640F4 /* DemoSelector.m in Sources */,
+				D956C7C91B525CAF002E9363 /* SwitchAdvance.m in Sources */,
 				D99CA6D11B3E833900A97B4B /* main.m in Sources */,
+				D911B88D1B518D550092C548 /* SkewImage.m in Sources */,
 				D9591FB11B46D8280066A428 /* SelectorAdvance.m in Sources */,
 				D9B789FC1B481C7C00CCADC3 /* SelectorAdvance3.m in Sources */,
+				D911B8831B5186160092C548 /* CustomSlider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

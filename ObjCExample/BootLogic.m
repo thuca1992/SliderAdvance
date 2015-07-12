@@ -25,7 +25,9 @@
                                   ]};
     NSDictionary* advanced = @{SECTION: @"Advanced", MENU: @[
                                     @{TITLE: @"Selector Advance", CLASS: @"SelectorAdvance"},
-                                    @{TITLE: @"Selector Advance 3", CLASS: @"SelectorAdvance3"}
+                                    @{TITLE: @"Selector Advance 3", CLASS: @"SelectorAdvance3"},
+                                    @{TITLE: @"Skew Image",CLASS:@"SkewImage"},
+                                    @{TITLE: @"Custom Switch", CLASS:@"SwitchAdvance"}
                              ]};
     
     mainScreen.menu = @[basic, intermediate, advanced];
